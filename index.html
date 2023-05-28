@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAIMAN'S CAVE</title>
+    <!--link href="style.css" rel="stylesheet" type="text/css" media="all"-->
+    <link rel="icon" type="image/x-icon" href="images/beetlewalk.gif">
+    <script type="text/javascript">
+// <![CDATA[
+var speed=100; // speed of wobbling, lower is faster
+var height=3; // height of wobbling in pixels
+var alink="http://www.mf2fm.com/rv"; // page to link text to (set to ="" for no link)
+
+/****************************
+*    Wobbly Text Effect     *
+*(c) 2003-6 mf2fm web-design*
+*  http://www.mf2fm.com/rv  *
+* DON'T EDIT BELOW THIS BOX *
+****************************/
+var wobtxt, wobble, wobcnt=0;
+window.onload=function() { if (document.getElementById) {
+  var i, wobli;
+  wobble=document.getElementById("wobble");
+  wobtxt=wobble.firstChild.nodeValue;
+  while (wobble.childNodes.length) wobble.removeChild(wobble.childNodes[0]);
+  for (i=0; i<wobtxt.length; i++) {
+    wobli=document.createElement("span");
+    wobli.setAttribute("id", "wobb"+i);
+    wobli.style.position="relative";
+    wobli.appendChild(document.createTextNode(wobtxt.charAt(i)));
+    if (alink) {
+      wobli.style.cursor="pointer";
+      wobli.onclick=function() { top.location.href=alink; }
+    }
+    wobble.appendChild(wobli);
+  }
+  setInterval("wobbler()", speed);
+}}
+
+function wobbler() {
+  for (var i=0; i<wobtxt.length; i++) document.getElementById("wobb"+i).style.top=Math.round(height*Math.sin(i+wobcnt))+"px"
+  wobcnt++;
+}
+// ]]>
+</script>
+    <style type="text/css">
+
+@font-face {
+  font-family: gamec;
+  src: url(fonts/gamecuben.ttf);
+}
+@font-face {
+  font-family: PFW;
+  src: url(fonts/ProFontWindows.ttf);
+}
+/* unvisited link */
+a:link {
+  color: #ed72ce;
+}
+
+/* visited link */
+a:visited {
+  color: #b12dcc;
+}
+
+/* mouse over link */
+a:hover {
+  color: #51b4ed;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #7e9fc2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1b70b5;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0f3da8;
+}
+    
+html {
+    background-image: url("images/lightning.gif");
+    background-position: center;
+    background-repeat: repeat;
+}
+
+body {
+    width: 900px;
+    position:relative;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    font-family:PFW;
+    color: black;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    font-size: 16px;
+    color:black;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+}
+#content {
+     width:920px;
+     height:665px;
+     background-color:#10134a;
+     background-image: url("images/marble.png");
+     background-position: center;
+     background-repeat: repeat;
+     padding:10px;
+     border: 2px double #000;
+     border-color:#0cab1e;
+     margin-top: 10%;
+}
+
+#header {
+     width:917px;
+     height:60px;
+     background-color:#151566;
+     background-image: url("images/skullswirl.png");
+     background-position: center;
+     background-repeat: repeat;
+     margin-top:5px;
+     border: 2px solid #000;
+     border-color:#29753d;
+     font-family:gamec;
+     text-align:center;
+     font-size:12mm;
+     color:#5fbd20;
+}
+
+#main {
+     padding: 0.5em 1em;
+     width:420px;
+     height:554px;
+     background-color:#191130;
+     background-image: url("images/lizard.png");
+     background-position: center;
+     background-repeat: repeat;
+     margin-right:232px;
+     margin-top:15px;
+     float:right;
+     border: 2px solid #000;
+     border-color:#29753d;
+     font-family:PFW;
+     font-size:15px;
+     text-align:center;
+     color:#3aa336;
+     overflow: auto;
+}
+
+#box1 {
+    padding: 0.5em 1em;
+    width:185px;
+    height:261px;
+    background-color:#191130;
+    background-image: url("images/lizard.png");
+    background-position: center;
+    background-repeat: repeat;
+    margin-top:15px;
+    text-align: left;
+    position: absolute;
+    border: 2px solid #000;
+    border-color:#29753d;
+    font-family:PFW;
+    font-size:15px;
+    color:#3aa336;
+    overflow: auto;
+}
+
+#box2 {
+    padding: 0.5em 1em;
+    width:185px;
+    height:265px;
+    background-color:#191130;
+    background-image: url("images/lizard.png");
+    background-position: center;
+    background-repeat: repeat;
+    margin-top:300px;
+    text-align: left;
+    position: absolute;
+    border: 2px solid #000;
+    border-color:#29753d;
+    font-family:PFW;
+    font-size:15px;
+    color:#3aa336;
+    overflow: auto;
+}
+
+#box3 {
+    padding: 0.5em 1em;
+    width:185px;
+    height:261px;
+    background-color:#191130;
+    background-image: url("images/lizard.png");
+    background-position: center;
+    background-repeat: repeat;
+    margin-left:700px;
+    margin-top:15px;
+    text-align: left;
+    position: absolute;
+    border: 2px solid #000;
+    border-color:#29753d;
+    font-family:PFW;
+    font-size:15px;
+    color:#3aa336;
+    overflow: auto;
+}
+
+#box4 {
+    padding: 0.5em 1em;
+    width:185px;
+    height:265px;
+    background-color:#191130;
+    background-image: url("images/lizard.png");
+    background-position: center;
+    background-repeat: repeat;
+    margin-left:700px;
+    margin-top:300px;
+    text-align: left;
+    position: absolute;
+    border: 2px solid #000;
+    border-color:#29753d;
+    font-family:PFW;
+    font-size:15px;
+    color:#3aa336;
+    overflow: auto;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+}
+    </style>
+  </head>
+<body>
+  <div id="content">
+      
+<div id="header">
+<div id="wobble">KAIMAN'S HOMEPAGE</div>
+</div>
+      
+<div id="box1">
+<p>I am a visual artist, <a href="https://rchcomm.carrd.co/">heres my commission info</a>. My art socials are the following: <a href="https://hazardmech.tumblr.com">art blog</a>, <a href="https://www.instagram.com/hazardmech">instagram</a>, <a href="https://toyhou.se/hazardmech">toyhouse</a>, <a href="https://hazardmech.creator-spring.com/">creatorspring</a>.<br>Support me & my work on <a href="https://ko-fi.com/hazardmech">kofi</a> !<br>My other socials include: <a href="https://spw.tumblr.com">main blog</a>.</p>
+<img src="images/phonefunny.gif" height="60">
+</div>
+
+<div id="box2">
+<p>I block people such as "proshippers", pedophiles, TERFs, transmeds, racists, bigots in general, endogenic systems and their supporters. Id rather not have any of them interact with my content At All.<br>If youre under the age of 16 I would avoid following me on any of my socials, though I dont post 18+ content, I do post suggestive art sometimes.</p>
+</div>
+      
+<div id="main">
+<p>call me Chaqui<br>nicknames or variations are awesome<br>18 y/o. She/Her, It/Its<br>faggy butch bisexy trans person-woman-guy-something<br>mixed chilean latina. Indigenous + White<br>autistic, psychotic & otherstuff</p>
+<p><img src="images/pidgeonlove2.gif" height="30">  Taken by Lammy  <img src="images/pidgeonlove1.gif" height="30"></p>
+<br>
+<img src="images/megandance.gif" height="140">
+<img src="images/wavedance.gif" height="140">
+<br>
+<p>Check out my <a href="/diary/diary.html">Artwork Diary</a></p>
+<p>View my <a href="/vshrine/vshrine.html">Vaporeon Shrine</a></p>
+<img src="images/snoopyread.gif" height="70">
+<img src="images/vaptailwave.gif" height="70">
+<p>I speak Spanish & English, and am slowly learning Mapudungún, Polish, Japanese, Portuguese, amongst other languages.</p>
+<p>Im alright with people calling me dude/guy/bro, just dont call me a man or masculine terms. Thumbs Up!</p>
+<p>B.T.W. you can also call me by my <a href="https://toyhou.se/hazardmech/characters/folder:4421507">sona's</a> names. I dont mind! Its silly Its nice Its fun for everyone</p>
+<p>I have terrible memory due to health conditions, so Im sorry if I ever forget something, I mostly do remember names & definitely remember important information but there still might be things I cant remember fully, hope its understandable.</p>
+<img src="images/lovebears.png" width="70">
+<img src="images/the fool cat.png" height="70">
+<img src="images/robby.png" width="70">
+ <p>My main interests include: Zatch Bell, JJBA, Bobobo, YugiOh:DM, Mashin Eiyuuden Wataru, DoroHeDoro, Transformers, Inscryption, Soulsborne, Metal Gear Solid, Parappa the Rapper/Um Jammer Lammy, Pokemon, Ib, Slasher Movies, General Horror (films/games/books), Biology (especially Taxonomy/Phylogeny, Arthropods, Entomology, Mycology, and Pallas cats), SM64 soundfont covers and  other miscalleanous stuff.</p>
+ <img src="images/shrimp.png" width="70">
+ <img src="images/boombox.png" width="70">
+ <img src="images/awesomepuppy.png" width="70">
+<p>I also like music like Lauren Bousfield, Osamu Sato, Psychedelic Porn Crumpets, King Crimson, Electric Light Orchestra, Jun Togawa, bôa, Talking Heads, Oingo Boingo, of Montreal, BUCK-TICK, Marina, Crush 40, Dope, System of a Down, Linkin Park, Limp Bizkit, Aphex Twin, MF DOOM and a bunch of video game soundtracks<br>Theres a lot more that I wont list because it really is a lot. if youre curious and want to know, send an ask ! music recommendations are more than welcome too.</p>
+<img src="images/ravagedance.gif">
+<br>
+<img src="images/limp.gif">
+</div>
+      
+      
+<div id="box3">
+  <p>Special Thanks to <a href="https://snipertf2.neocities.org/">Rita</a> for helping me out with this page's code !</p>
+  <img src="images/pikaball.gif">
+  <p>(Site subject to changes ! Any suggestions welcome)</p>
+</div>
+      
+<div id="box4">
+<p>"In a way, you are poetry material; you are full of cloudy subtleties I am willing to spend a lifetime figuring out. Words burst in your essence and you carry their dust in the pores of your ethereal individuality." 
+<br>-Franz Kafka (Letters to Milena)</p>
+</div>
+      
+</div>
+  <footer> 
+  <span style="display:inline;">
+        <img src="images/kittyspace.png" width="800">
+    </span>
+  </footer>
+</body>
+</html>
