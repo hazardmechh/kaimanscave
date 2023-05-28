@@ -84,6 +84,7 @@ body {
 }
 
 #construction-warning {
+    z-index: 900;
     background-color: #ffee003b;
     text-align: center;
     padding: 10px;
