@@ -42,7 +42,7 @@ body {
     border: 0px solid rgb(0, 0, 0);
 }
 
-#id_1685220212312 {
+.content-title {
     z-index: 90;
     width: auto;
     height: 48px;
@@ -54,7 +54,7 @@ body {
     min-width: 7px;
 }
 
-#id_1685220326292 {
+.content-text {
     z-index: 90;
     width: auto;
     height: auto;
