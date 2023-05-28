@@ -18,7 +18,7 @@ body {
     z-index: 90;
     width: 600px;
     height: 800px;
-    border: 2px solid rgb(0, 0, 0);
+    /* border: 2px solid rgb(0, 0, 0); */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -80,10 +80,11 @@ body {
 
 .link-name {
     font-size: 15pt;
+    font-weight: bold;
 }
 
 #construction-warning {
-    background-color: #f2f2f230;
+    background-color: #ffee003b;
     text-align: center;
     padding: 10px;
     /* Stick the footer to the bottom of the page */
@@ -91,4 +92,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
+    font-weight: bolder;
+    color: #ffee00;
+    /* text-shadow: -2px 0 #ffee00, 0 2px #ffee00, 2px 0 #ffee00, 0 -2px #ffee00; */
 }
