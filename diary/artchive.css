@@ -71,70 +71,6 @@ body {
     color: rgb(64, 0, 0);
 }
 
-#id_1685220657139 {
-    width: auto;
-    height: 100px;
-    z-index: 90;
-    border: 0px solid rgb(0, 0, 0);
-}
-
-#id_1685220709790 {
-    z-index: 90;
-    width: auto;
-    height: auto;
-    border: medium none;
-    position: relative;
-    overflow-wrap: break-word;
-    display: block;
-    margin: 0px;
-    font-size: 15pt;
-    font-family: "Times New Roman";
-    text-align: center;
-    font-weight: normal;
-    font-style: normal;
-    text-decoration-line: none;
-}
-
-#id_1685221014330 {
-    z-index: 90;
-    width: 150px;
-    height: 150px;
-    border: 0px solid rgb(0, 0, 0);
-}
-
-#id_1685221068466 {
-    width: auto;
-    height: 100px;
-    z-index: 90;
-    border: 0px solid rgb(0, 0, 0);
-}
-
-#id_1685221117502 {
-    z-index: 90;
-    width: auto;
-    height: auto;
-    border: medium none;
-    position: relative;
-    overflow-wrap: break-word;
-    display: block;
-    margin: 0px;
-    font-size: 15pt;
-}
-
-#id_1685221326718 {
-    z-index: 90;
-    width: 150px;
-    height: 150px;
-    border: 0px solid rgb(0, 0, 0);
-    color: rgb(128, 0, 0);
-    font-size: 15pt;
-    text-decoration-line: none;
-    font-style: normal;
-    font-weight: normal;
-    text-align: center;
-    font-family: "Times New Roman";
-}
-
 .link-image {
     width: auto;
     height: 100px;
@@ -144,52 +80,6 @@ body {
 
 .link-name {
     font-size: 15pt;
-}
-
-#id_1685221496679 {
-    z-index: 90;
-    width: auto;
-    height: auto;
-    border: medium none;
-    position: relative;
-    overflow-wrap: break-word;
-    display: block;
-    margin: 0px;
-}
-
-#id_1685221601397 {
-    z-index: 90;
-    width: 150px;
-    height: 150px;
-    border: 0px solid rgb(0, 0, 0);
-}
-
-#id_1685221633801 {
-    width: 152px;
-    height: 102px;
-    z-index: 90;
-    border: 0px solid rgb(0, 0, 0);
-}
-
-#id_1685221683878 {
-    z-index: 90;
-    width: auto;
-    height: auto;
-    border: medium none;
-    position: relative;
-    overflow-wrap: break-word;
-    display: inline-block;
-    font-size: 15pt;
-}
-
-#id_1685221759585 {
-    z-index: 90;
-    width: auto;
-    height: auto;
-    border: medium none;
-    position: relative;
-    overflow-wrap: break-word;
-    display: inline-block;
 }
 
 #construction-warning {
