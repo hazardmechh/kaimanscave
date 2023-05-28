@@ -2,8 +2,201 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
+@font-face {
+  font-family: gamec;
+  src: url(fonts/gamecuben.ttf);
+}
+
+@font-face {
+  font-family: PFW;
+  src: url(fonts/ProFontWindows.ttf);
+}
+
+/* unvisited link */
+a:link {
+  color: #ed72ce;
+}
+
+/* visited link */
+a:visited {
+  color: #b12dcc;
+}
+
+/* mouse over link */
+a:hover {
+  color: #51b4ed;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #7e9fc2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1b70b5;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0f3da8;
+}
+
+html {
+  background-image: url("images/lightning.gif");
+  background-position: center;
+  background-repeat: repeat;
+}
+
 body {
-  background-color: white;
+  width: 900px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: PFW;
   color: black;
-  font-family: Verdana;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+  font-size: 16px;
+  color: black;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 2em 2em 4em;
+}
+
+#content {
+  width: 920px;
+  height: 665px;
+  background-color: #10134a;
+  background-image: url("images/marble.png");
+  background-position: center;
+  background-repeat: repeat;
+  padding: 10px;
+  border: 2px double #000;
+  border-color: #0cab1e;
+  margin-top: 10%;
+}
+
+#header {
+  width: 917px;
+  height: 60px;
+  background-color: #151566;
+  background-image: url("images/skullswirl.png");
+  background-position: center;
+  background-repeat: repeat;
+  margin-top: 5px;
+  border: 2px solid #000;
+  border-color: #29753d;
+  font-family: gamec;
+  text-align: center;
+  font-size: 12mm;
+  color: #5fbd20;
+}
+
+#main {
+  padding: 0.5em 1em;
+  width: 420px;
+  height: 554px;
+  background-color: #191130;
+  background-image: url("images/lizard.png");
+  background-position: center;
+  background-repeat: repeat;
+  margin-right: 232px;
+  margin-top: 15px;
+  float: right;
+  border: 2px solid #000;
+  border-color: #29753d;
+  font-family: PFW;
+  font-size: 15px;
+  text-align: center;
+  color: #3aa336;
+  overflow: auto;
+}
+
+#box1 {
+  padding: 0.5em 1em;
+  width: 185px;
+  height: 261px;
+  background-color: #191130;
+  background-image: url("images/lizard.png");
+  background-position: center;
+  background-repeat: repeat;
+  margin-top: 15px;
+  text-align: left;
+  position: absolute;
+  border: 2px solid #000;
+  border-color: #29753d;
+  font-family: PFW;
+  font-size: 15px;
+  color: #3aa336;
+  overflow: auto;
+}
+
+#box2 {
+  padding: 0.5em 1em;
+  width: 185px;
+  height: 265px;
+  background-color: #191130;
+  background-image: url("images/lizard.png");
+  background-position: center;
+  background-repeat: repeat;
+  margin-top: 300px;
+  text-align: left;
+  position: absolute;
+  border: 2px solid #000;
+  border-color: #29753d;
+  font-family: PFW;
+  font-size: 15px;
+  color: #3aa336;
+  overflow: auto;
+}
+
+#box3 {
+  padding: 0.5em 1em;
+  width: 185px;
+  height: 261px;
+  background-color: #191130;
+  background-image: url("images/lizard.png");
+  background-position: center;
+  background-repeat: repeat;
+  margin-left: 700px;
+  margin-top: 15px;
+  text-align: left;
+  position: absolute;
+  border: 2px solid #000;
+  border-color: #29753d;
+  font-family: PFW;
+  font-size: 15px;
+  color: #3aa336;
+  overflow: auto;
+}
+
+#box4 {
+  padding: 0.5em 1em;
+  width: 185px;
+  height: 265px;
+  background-color: #191130;
+  background-image: url("images/lizard.png");
+  background-position: center;
+  background-repeat: repeat;
+  margin-left: 700px;
+  margin-top: 300px;
+  text-align: left;
+  position: absolute;
+  border: 2px solid #000;
+  border-color: #29753d;
+  font-family: PFW;
+  font-size: 15px;
+  color: #3aa336;
+  overflow: auto;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
 }
