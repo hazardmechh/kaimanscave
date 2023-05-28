@@ -1,0 +1,221 @@
+body {
+    margin: 0px;
+    height: 100vh;
+    width: 100%;
+    background-image: url("./images/starspretty.jpg");
+}
+
+#id_1685219835814 {
+    position: absolute;
+    z-index: 90;
+    width: 600px;
+    height: 800px;
+    border: 2px solid rgb(0, 0, 0);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(62, 23, 0);
+    background: rgb(0, 0, 0) url("./images/diarypage.png") 0% 0% / 100% 100% no-repeat local;
+    font-size: 11pt;
+    font-family: "Times New Roman";
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration-line: none;
+}
+
+#id_1685219917316 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    z-index: 90;
+    border: 0px solid rgb(0, 0, 0);
+    left: -62px;
+    top: -50px;
+}
+
+#id_1685220212312 {
+    z-index: 90;
+    width: auto;
+    height: 48px;
+    border: medium none;
+    position: relative;
+    overflow-wrap: break-word;
+    display: block;
+    margin: 52px;
+    top: -6px;
+    left: 1px;
+    min-width: 7px;
+}
+
+#{null;}#id_1685220326292 {
+    z-index: 90;
+    width: auto;
+    height: auto;
+    border: medium none;
+    position: absolute;
+    overflow-wrap: break-word;
+    display: block;
+    margin: 41px;
+    left: -3px;
+    top: 64px;
+}
+
+#{null;}#{null;}#id_1685220555340 {
+    position: absolute;
+    z-index: 90;
+    width: 150px;
+    height: 150px;
+    border: 0px solid rgb(0, 0, 0);
+    left: 226px;
+    top: 247px;
+    display: block;
+    color: rgb(64, 0, 0);
+}
+
+#id_1685220657139 {
+    width: auto;
+    height: 100px;
+    position: absolute;
+    z-index: 90;
+    border: 0px solid rgb(0, 0, 0);
+    left: -2px;
+    top: 9px;
+}
+
+#id_1685220709790 {
+    z-index: 90;
+    width: auto;
+    height: auto;
+    border: medium none;
+    position: relative;
+    overflow-wrap: break-word;
+    display: block;
+    margin: 0px;
+    top: 120px;
+    font-size: 15pt;
+    font-family: "Times New Roman";
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration-line: none;
+}
+
+#id_1685221014330 {
+    position: absolute;
+    z-index: 90;
+    width: 150px;
+    height: 150px;
+    border: 0px solid rgb(0, 0, 0);
+    left: 54px;
+    top: 248px;
+}
+
+#id_1685221068466 {
+    width: auto;
+    height: 100px;
+    position: absolute;
+    z-index: 90;
+    border: 0px solid rgb(0, 0, 0);
+    left: -2px;
+    top: 9px;
+}
+
+#id_1685221117502 {
+    z-index: 90;
+    width: auto;
+    height: auto;
+    border: medium none;
+    position: relative;
+    overflow-wrap: break-word;
+    display: block;
+    margin: 0px;
+    top: 120px;
+    font-size: 15pt;
+    left: 2px;
+}
+
+#id_1685221326718 {
+    position: absolute;
+    z-index: 90;
+    width: 150px;
+    height: 150px;
+    border: 0px solid rgb(0, 0, 0);
+    left: 222px;
+    top: 598px;
+    color: rgb(128, 0, 0);
+    font-size: 15pt;
+    text-decoration-line: none;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-family: "Times New Roman";
+}
+
+#id_1685221397020 {
+    width: auto;
+    height: 100px;
+    position: absolute;
+    z-index: 90;
+    border: 0px solid rgb(0, 0, 0);
+    left: -22px;
+    top: -5px;
+}
+
+#id_1685221496679 {
+    z-index: 90;
+    width: auto;
+    height: auto;
+    border: medium none;
+    position: relative;
+    overflow-wrap: break-word;
+    display: block;
+    margin: 0px;
+    top: 96px;
+}
+
+#id_1685221601397 {
+    position: absolute;
+    z-index: 90;
+    width: 150px;
+    height: 150px;
+    border: 0px solid rgb(0, 0, 0);
+    left: 404px;
+    top: 250px;
+}
+
+#id_1685221633801 {
+    width: 152px;
+    height: 102px;
+    position: absolute;
+    z-index: 90;
+    border: 0px solid rgb(0, 0, 0);
+    left: -2px;
+    top: 5px;
+}
+
+#id_1685221683878 {
+    z-index: 90;
+    width: auto;
+    height: auto;
+    border: medium none;
+    position: relative;
+    overflow-wrap: break-word;
+    display: block;
+    margin: 0px;
+    font-size: 15pt;
+    top: 114px;
+    left: 0px;
+}
+
+#id_1685221759585 {
+    z-index: 90;
+    width: auto;
+    height: auto;
+    border: medium none;
+    position: relative;
+    overflow-wrap: break-word;
+    display: block;
+    margin: 37px;
+    top: 49px;
+}
