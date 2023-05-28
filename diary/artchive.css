@@ -45,7 +45,6 @@ body {
 .content-title {
     z-index: 90;
     width: auto;
-    height: 48px;
     border: medium none;
     position: relative;
     overflow-wrap: break-word;
