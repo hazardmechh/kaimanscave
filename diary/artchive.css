@@ -142,6 +142,10 @@ body {
     border: 0px solid rgb(0, 0, 0);
 }
 
+.link-name {
+    font-size: 15pt;
+}
+
 #id_1685221496679 {
     z-index: 90;
     width: auto;
