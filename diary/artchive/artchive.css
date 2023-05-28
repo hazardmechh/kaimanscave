@@ -23,7 +23,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(62, 23, 0);
-    background: rgb(0, 0, 0) url("./images/diarypage.png") 0% 0% / 100% 100% no-repeat local;
+    background: rgb(0, 0, 0) url("./images/diarypage.webp") 0% 0% / 100% 100% no-repeat local;
     font-size: 11pt;
     font-family: "Times New Roman";
     text-align: center;
