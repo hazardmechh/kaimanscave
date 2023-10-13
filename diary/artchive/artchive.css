@@ -63,6 +63,13 @@ body {
     margin: 20px 41px 20px 41px;
 }
 
+.content-image {
+    width: auto;
+    height: 100px;
+    z-index: 90;
+    border: 0px solid rgb(0, 0, 0);
+}
+
 .link {
     z-index: 90;
     border: 0px solid rgb(0, 0, 0);
@@ -83,12 +90,7 @@ body {
     margin: 0px 0px 15pt 0px;
 }
 
-.content-image {
-    width: auto;
-    height: 100px;
-    z-index: 90;
-    border: 0px solid rgb(0, 0, 0);
-}
+
 
 #construction-warning {
     z-index: 900;
