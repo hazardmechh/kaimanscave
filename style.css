@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: CrashBangWallop;
-  src: url(gitaroo.otf);
+  src: url(gitaroo.ttf);
 }
 
 @font-face {
@@ -94,7 +94,7 @@ body {
   border-color: #29753d;
   font-family: CrashBangWallop;
   text-align: center;
-  font-size: 12mm;
+  font-size: 10mm;
   color: #5fbd20;
 }
 
