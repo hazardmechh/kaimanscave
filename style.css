@@ -3,8 +3,8 @@
    "how to change link color." */
 
 @font-face {
-  font-family: CrashBangWallop;
-  src: url(CrashBangWallop Medium.ttf);
+  font-family: gamec;
+  src: url(gamecuben.ttf);
 }
 
 @font-face {
@@ -92,7 +92,7 @@ body {
   margin-top: 5px;
   border: 2px solid #000;
   border-color: #29753d;
-  font-family: CrashBangWallop;
+  font-family: gamec;
   text-align: center;
   font-size: 10mm;
   color: #5fbd20;
