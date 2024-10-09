@@ -3,7 +3,7 @@
    "how to change link color." */
 
 @font-face {
-  font-family: gitar;
+  font-family: CrashBangWallop;
   src: url(gitaroo.otf);
 }
 
@@ -92,7 +92,7 @@ body {
   margin-top: 5px;
   border: 2px solid #000;
   border-color: #29753d;
-  font-family: gitar;
+  font-family: CrashBangWallop;
   text-align: center;
   font-size: 12mm;
   color: #5fbd20;
