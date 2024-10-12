@@ -11,7 +11,7 @@ var alink = "http://www.mf2fm.com/rv"; // page to link text to (set to ="" for n
 var wobtxt,
   wobble,
   wobcnt = 0;
-
+/*
 window.onload = function () {
   if (document.getElementById) {
     var i, wobli;
@@ -41,3 +41,4 @@ function wobbler() {
       Math.round(height * Math.sin(i + wobcnt)) + "px";
   wobcnt++;
 }
+*/
